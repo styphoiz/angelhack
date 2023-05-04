@@ -1,0 +1,1 @@
+Solution Day 1 - 56
