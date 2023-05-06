@@ -4,10 +4,10 @@ let directions =
 let floor = 0;
 //Solution 1
 for (let i = 0; i < directions.length; i++) {
-  if (directions.charAt(i) == "<") {
+  if (directions.charAt(i) === "<") {
     floor++;
   }
-  if (directions.charAt(i) == ">") {
+  if (directions.charAt(i) === ">") {
     floor--;
   }
 }
