@@ -1,2 +1,2 @@
-Solution Day 4 - 491
+Solution Day 4 - 475
 
