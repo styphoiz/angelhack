@@ -80,6 +80,43 @@ try {
   const decodedString = decode(encodedString, codebook);
 
   console.log(decodedString);
+  function replaceString(longString, searchString, replacement) {
+
+  let result = "";
+
+  let index = 0;
+
+  while (index < longString.length) {
+
+    if (longString.substr(index, searchString.length) === searchString) {
+
+      result += replacement;
+
+      index += searchString.length;
+
+    } else {
+
+      result += longString[index];
+
+      index++;
+
+    }
+
+  }
+
+  return result;
+
+}
+
+const longString = "This is a long string containing the word 'yab' multiple times.";
+
+const searchString = "yab";
+
+const replacement = " ";
+
+const modifiedString = replaceString(longString, searchString, replacement);
+
+console.log(modifiedString);
 
 } catch (error) {
 
