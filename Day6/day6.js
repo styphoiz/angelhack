@@ -42,13 +42,10 @@ for (let i=0;i<splitSeriesArray.length; i++){
 
     }
 
-    else{
+    else
 
         keys[splitSeriesArray[i]] = 1
 
     }
 
 }
-
-console.log(keys)
-
