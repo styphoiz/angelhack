@@ -1,17 +1,4 @@
-Day 6  
-
-Combined everythign together, tried some code and eventually brute forced the answer using the below string
-
-kjslaqpwoerewefifjdksjdfhjdksdjfkdfdldkjdjfjfjfjfjfnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjknbmsdsdsfdvneurghiueor 
-kjs    w erewefifjdksjdfhjdksdjfkdfd dkjdjfjfjfjfjfnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjknb sdsdsfd neurghiue r
-remove l - 2 
-remove o - 2 
-remove a  
-remove q  
-remove p  
-remove v  
-remove m  
-remove 
-Updated count - 9  
-
-kjswerewefifjdksjdfhjdksdjfkdfddkjdjfjfjfjfjfnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjknbsdsdsfdneurghiuer  
+Day 6  - 93  
+After trying to run this through code and overcomplicate everything by running down different paths due to the size of the data, I did this is the Excel workbook attached  
+Steps followed, remove everything that occurred once  
+Remove everything that seemed to far to join to the same value  with too many other characters in between then start removing manually because I now have a small amount of data  
