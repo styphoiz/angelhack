@@ -1,5 +1,6 @@
-Day 6  - 84, updated as per Excel sheet attached earlier, did some back tests on my photo and the counting was wrong, Note step 12 was missing in my sheet.
+Day 6  - 84, updated as per Excel sheet "Sequence" attached earlier, did some back tests on my photo and the counting was wrong, Note step 12 was missing in my sheet.
 
+You can ignore the rest of this.
 The rest is from previous commits, eventually did this on paper and got to 82.  
 After trying to run this through code and overcomplicate everything by running down different paths due to the size of the data, I did this is the Excel workbook attached  
 Steps followed, remove everything that occurred once  
