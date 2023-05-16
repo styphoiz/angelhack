@@ -1,17 +1,25 @@
 
+// let array = [
+
+//   [".", ".", ".", ".", "X"],
+
+//   ["X", ".", ".", "X", "."],
+
+//   ["X", ".", ".", "X", "X"],
+
+//   [".", ".", "X", ".", "."],
+
+//   ["X", ".", ".", ".", "."]
+
+// ];
+
 let array = [
-
-  [".", ".", ".", ".", "X"],
-
-  ["X", ".", ".", "X", "."],
-
-  ["X", ".", ".", "X", "X"],
-
-  [".", ".", "X", ".", "."],
-
-  ["X", ".", ".", ".", "."]
-
-];
+    ["X","X","X","X","."],
+    ["X",".",".",".","."],
+    ["X",".",".","X","."],
+    [".","X",".","X","."],
+    ["X","X",".","X","X"],
+    ]
 
 let count = 0;
 
@@ -160,4 +168,22 @@ while (count === 0) {
 console.log("New Array:");
 
 console.log(newArr);
+let count2 = 0
+let countArr = []
+for (let i=0;i<newArr.length;i++){
+    for(let j=0;j<newArr[0].length;j++){
+        
+        if(newArr[i][j]=="X"){
+            console.log(count2)
+            countArr.push(count2)
+        }
+        count2++
+    }
+}
 
+let sum = 0
+for(let i = 0;i<countArr.length;i++){
+    sum+= 2 ** countArr[i]
+}
+
+console.log(sum)
