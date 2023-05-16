@@ -1,4 +1,4 @@
-let array = [
+ array = [
 
   [".", ".", ".", ".", "X"],
 
@@ -11,6 +11,10 @@ let array = [
   ["X", ".", ".", ".", "."]
 
 ];
+let count = 0
+let hugeArray = []
+while (count == 0 ){
+    
 
 let newArr = [];
 
@@ -104,14 +108,15 @@ for (let i = 0; i < array.length; i++) {
 
     if (currentSquare == "X") {
 
-      if (adj == dot) {
+      if (x == 1) {
 
-        newRow.push(".");
+        newRow.push("X");
+        console.log("X", x, dot , adj)
 
       } else {
 
-        newRow.push("X");
-
+        newRow.push(".");
+console.log(".", dot)
       }
 
     } else if (currentSquare == ".") {
@@ -119,6 +124,7 @@ for (let i = 0; i < array.length; i++) {
       if (x === 1 || x === 2) {
 
         newRow.push("X");
+
 
       } else {
 
@@ -133,7 +139,13 @@ for (let i = 0; i < array.length; i++) {
   newArr.push(newRow);
 
 }
-
+let newCount = hugeArray.includes(newArr)
+hugeArray.push(newArr)
+if(newCount){
+    console.log(hugeArray.indexOf(newArr))
+    count = 1
+}
+}
 console.log("New Array:");
 
 console.log(newArr);
