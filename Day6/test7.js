@@ -18,8 +18,8 @@ while (array.length > 0) {
     let indexPlus1Prev = findPrevBlockIndex(array, array[i + 1], i + 1);
 
     if (
-      (nextOccur - i > i + 1 - indexPlus1Prev &&
-        i - prevOccur > indexMinus1Next - i - 1) ||
+      (nextOccur - i > i + 1 - indexPlus1Prev && indexPlus1Prev != -1) ||
+      (i - prevOccur > indexMinus1Next - i - 1 && indexMinus1Next != -1) ||
       (nextOccur === -1 && prevOccur === -1)
     ) {
       array.splice(i, 1);
