@@ -121,8 +121,7 @@ function splitSeries(series) {
   return splits;
 }
 
-let series =
-  "kjslaqpwoereeeeewwwefifjdksjdfhjdksdjfkdfdlddkjdjfjfjfjjjjfjffnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjkkkknbmssdsdsfdvneurghiueor";
+let series = "efdjdfdjfjfjfkgjkekg";
 const inputString = splitSeries(series).join("");
 console.log(inputString);
 const { moves, result, steps } = removeTiles(inputString);

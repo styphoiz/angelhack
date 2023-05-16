@@ -1,4 +1,30 @@
-Day 6  - 93  
+Day 6  - 90  
 After trying to run this through code and overcomplicate everything by running down different paths due to the size of the data, I did this is the Excel workbook attached  
 Steps followed, remove everything that occurred once  
 Remove everything that seemed to far to join to the same value  with too many other characters in between then start removing manually because I now have a small amount of data  
+
+Starting line after removing characters that are duplicated  
+kjslaqpwoerewefifjdksjdfhjdksdjfkdfdldkjdjfjfjfjfjfnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjknbmsdsdsfdvneurghiueor  
+Remove all singles + 5    
+kjsl   woerewefifjdksjdfhjdksdjfkdfdldkjdjfjfjfjfjfnefhkjgefkgjefkjgkefjekihutrieruhigtefhgbjknb sdsdsfdn eurghiueor  
+Remove all that are further than a surrounding character + 68    
+         e e  f f d  jd   d  d f d d d j j jfjfjf f  f k g   gj  k  ke  ek   tr  r   g    gb   b s s s       g    
+Remove all that have duplicates characters and keep a single character  
+efdjdfdjfjfjfkgjkektrgbsg  
+Remove all singles + 4  
+efdjdfdjfjfjfkgjkekgg  
+efdjddjfjfjfkgjkekgg + 1  
+efdjjfjfjfkgjkekgg + 1  
+efjjfjfjfkgjkekgg + 1  
+efjjfjfjfkgjkkgg + 1  
+efjjfjfjfkgkkgg + 1  
+efjjfjfjfkkkgg + 1  
+efjjfjfjfgg + 1  
+fjjfjfjfgg + 1  
+fjjfjfjf + 1  
+fjjjfjf + 1  
+fjjjjf + 1  
+ff + 1  
+ + 1  
+
+ = 90
