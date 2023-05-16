@@ -1,4 +1,4 @@
-Day 6  - 90  
+Day 6  - 85, refer to Excel sheet, ignore the below, it came to 90 and I manully counted after to 85.    
 After trying to run this through code and overcomplicate everything by running down different paths due to the size of the data, I did this is the Excel workbook attached  
 Steps followed, remove everything that occurred once  
 Remove everything that seemed to far to join to the same value  with too many other characters in between then start removing manually because I now have a small amount of data  
